@@ -200,3 +200,412 @@ transition: color 0.4s;
 {
     color: #0196e3
 }
+
+@media only screen  and (max-width: 1024px){
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       
+    }
+    
+    body {
+        /*display: flex;*/
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh ;
+        width: 100%;
+        background-color: #f2f3f7;
+        
+    }
+    
+    .header{
+        background-image: url(bg/sci-center-3.jpg);
+    }
+    
+    .top {
+        text-align: center;
+        padding: 50px 50px;
+        margin-bottom: 2em;
+        font-size:20px;
+        font-family: Montserrat,"Helvetica Neue", Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        line-height: 60px;
+        color: #000000;
+    }
+    
+    .about .self{
+        display: contents;
+        text-align: center;
+        margin-bottom: 2em;
+        font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+        font-weight: 500;
+    }
+    
+    .about .abcontent{
+        text-align: justify;
+        font-family: 'Catamaran', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.3em;
+        margin-left: 2em;
+        margin-right: 2em;
+        color: #767481;
+       
+       
+    }
+    
+    .buttons
+    {
+        margin-top: 2em;
+        text-align: center; 
+        margin-bottom: 2em;
+        color: #26252b;
+        font-weight: 400;
+    }
+    
+    .buttons button
+    {
+        padding: 20px 40px;
+        border-color: #5d3c85;
+        border-radius: 3px;
+        font-size: 18px;
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 700;
+        color: #fff;
+        cursor: pointer;
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-color: rgb(93, 60, 133);
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-bottom-width: 1px;
+    }   
+    
+    .buttons .extLinks{
+        text-align: center;
+        font-family: 'Catamaran', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5em;
+        margin-left: 2em;
+        margin-right: 2em;
+        color: #222223;
+       
+    }
+    
+    
+    .heading{
+        margin-top: 2em;
+        display: contents;
+        text-align: center;
+        margin-bottom: 2em;
+        font-weight: 700;
+       
+    }
+    
+    .heading h1{
+        font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+        font-weight: 700;
+    }
+    
+    .heading h2{
+        font-family: Montserrat, "Droid Serif","Helvetica Neue", Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #767481
+    }
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-family: 'Bellota Text', cursive;
+    } 
+    
+    .container .card
+    {
+        width: 200px; /*330*/
+        height: 400px; /* 416*/
+        padding: 60px 30px;
+        margin: 20px;
+        background: #f2f3f7;
+        box-shadow: 0.6em 0.6em 1.2em #d2dce9, 
+                     -0.5em -0.5em 1em #ffffff;
+        border-radius: 20px;
+    }
+    
+    .container .card .content
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .container .card .content .imgBx
+    /*image within the box info*/
+    {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+    }
+    
+    .container .card .content .imgBx img
+    {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+     
+    .container .card .content .contentBx h4
+    {
+    color: #36187d;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0;
+    }
+    
+    .container .card .content .contentBx h5
+    {
+        color: #6c756c;
+        font-size: 1rem ;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .container .card .content .sci
+    {
+        margin-top: 10px;
+    }
+    
+    .container .card .content .sci a
+    {
+    text-decoration: none;
+    color: #6c758f;
+    font-size: 15px;
+    margin: 10px;
+    transition: color 0.4s;
+    }
+    
+    .container .card .content .sci a:hover
+    {
+        color: #0196e3
+    }
+
+}
+
+@media only screen  and (max-width: 375px ){
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh ;
+    width: 100%;
+    background-color: #f2f3f7;
+    
+}
+
+.header{
+    background-image: url(bg/sci-center-3.jpg);
+}
+
+.top {
+    text-align: center;
+    padding: 50px 50px;
+    margin-bottom: 2em;
+    font-size:15px;
+    font-family: Montserrat,"Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 60px;
+    color: #000000;
+}
+
+.about .self{
+    display: contents;
+    text-align: center;
+    margin-bottom: 2em;
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.about .abcontent{
+    text-align: justify;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: #767481;
+   
+   
+}
+
+.buttons
+{
+    margin-top: 2em;
+    text-align: center; 
+    margin-bottom: 2em;
+    color: #26252b;
+    font-weight: 400;
+}
+
+.buttons button
+{
+    padding: 20px 40px;
+    border-color: #5d3c85;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(93, 60, 133);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-width: 1px;
+}   
+
+.buttons .extLinks{
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: #222223;
+   
+}
+
+
+.heading{
+    margin-top: 2em;
+    display: contents;
+    text-align: center;
+    margin-bottom: 2em;
+    font-weight: 700;
+   
+}
+
+.heading h1{
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.heading h2{
+    font-family: Montserrat, "Droid Serif","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #767481
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Bellota Text', cursive;
+} 
+
+.container .card
+{
+    width: 200px; /*330*/
+    height: 400px; /* 416*/
+    padding: 60px 30px;
+    margin: 20px;
+    background: #f2f3f7;
+    box-shadow: 0.6em 0.6em 1.2em #d2dce9, 
+                 -0.5em -0.5em 1em #ffffff;
+    border-radius: 20px;
+}
+
+.container .card .content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .card .content .imgBx
+/*image within the box info*/
+{
+width: 180px;
+height: 180px;
+border-radius: 50%;
+position: relative;
+margin-bottom: 10px;
+overflow: hidden;
+}
+
+.container .card .content .imgBx img
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+ 
+.container .card .content .contentBx h4
+{
+color: #36187d;
+font-size: 1.2rem;
+font-weight: bold;
+text-align: center;
+letter-spacing: 0;
+}
+
+.container .card .content .contentBx h5
+{
+    color: #6c756c;
+    font-size: 1rem ;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container .card .content .sci
+{
+    margin-top: 10px;
+}
+
+.container .card .content .sci a
+{
+text-decoration: none;
+color: #6c758f;
+font-size: 15px;
+margin: 10px;
+transition: color 0.4s;
+}
+
+.container .card .content .sci a:hover
+{
+    color: #0196e3
+}
+
+}
+
