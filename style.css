@@ -202,7 +202,7 @@ transition: color 0.4s;
 
 }
 
-.cards{
+.event{
     margin: auto;
     /*margin-top: 2em;
     margin-left: 4em; */
@@ -222,19 +222,19 @@ transition: color 0.4s;
     border-top-right-radius: 1em;
 }
 
- .cards-info{
+ .event-info{
     padding: 1.5em;
     padding-bottom: 1em;
 }
 
- .cards-info >h1{
+ .event-info >h1{
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 1.5em;
     color:#222222;
 }
 
- .cards-info >p{
+ .event-info >p{
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 1em;
@@ -244,7 +244,7 @@ transition: color 0.4s;
     margin-top: 1em;
 }
 
- .cards-info button{
+ .event-info button{
     font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-weight: 700;
     outline: none;
@@ -456,6 +456,61 @@ transition: color 0.4s;
     {
         color: #0196e3
     }
+
+    .event{
+        margin: auto;
+        /*margin-top: 2em;
+        margin-left: 4em; */
+        width: 80%;
+        background-color: white ;
+        border-radius: 1em;
+        box-shadow: 9px 9px 40px #bfbfbf;
+    }
+    
+    .row{
+        display: flex;
+    }
+    
+     .image{
+        width:50%;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+    
+     .event-info{
+        padding: 1.5em;
+        padding-bottom: 1em;
+    }
+    
+     .event-info >h1{
+        font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 1.5em;
+        color:#222222;
+    }
+    
+     .event-info >p{
+        font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 1em;
+        color: #22222299;
+        text-align: justify;
+        line-height: 170%;
+        margin-top: 1em;
+    }
+    
+     .event-info button{
+        font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        outline: none;
+        padding: 10px  15px;
+        font-weight: bolder;
+    }
+    
+    #more{
+        display: none;
+    }
+    
 
 }
 
