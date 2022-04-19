@@ -42,6 +42,69 @@
 	</div>
 	
 	<hr>
+	<br>
+	<div class="heading">
+		<h1>FEATURED EVENT</h1>
+	</div>
+	<br>
+	<!-- Event starts here-->
+		<div class="cards">
+			<div class="row">
+				<img src="./events/mariel-profile.jpeg" alt="" class="image">
+				<img src="./events/mariel-poster.jpeg" alt="" class="image">
+			</div>
+	   
+		   <div class="cards-info">
+			   <h1> Dancing with Myself: Interdisciplinary Machine Learning Methods for Choreography</h1>
+				   <p> In these years marked by physical distance, Dr. Pettee’s primary dance partner has been a machine learning (ML) model. 
+					   Inspired by her applications of ML in the domain of high-energy particle physics during her PhD, over the past few years she has led 
+					   several independent teams of researchers across
+						<span id="dots">......</span>
+						<div id="more">
+							<p>
+								academia, industry, and the arts to create state-of-the-art ML-generated 
+								choreography using techniques including Variational Autoencoders and Graph Neural Networks. In this talk, she will discuss 
+								the research trajectories leading to her models, which were designed to understand dynamic many-body systems, along 
+								with their generative implications for her creative practice.
+	
+								<br>
+	
+								Biography:
+								Mariel Pettee (Physics PhD, Yale University) is a Chamberlain Postdoctoral Research Fellow at Lawrence Berkeley National Laboratory.
+								Her research encompasses the development of custom machine learning techniques for high-energy particle physics as well as astrophysics. 
+								She is particularly interested in creating generic techniques that have broad applicability across other areas of fundamental science and art.
+								Since 2017, she has also led independent teams of researchers using machine learning to generate choreography based on 3D motion capture of 
+								her own movements. As a choreographer, director, and performer, she also uses theater and dance work to research audience activation, 
+								duration, power, self-documentation, authenticity, fear, and playfulness. Most recently, she has worked with companies including Kinetech Arts,
+								LeeSaar, Urban Bush Women, Paul Taylor 2, and the Bill T. Jones/Arnie Zane Company. She was a choreographer-in-residence at Harvard University’s 
+							    Dance Center in 2014. Prior to her PhD, she earned her Bachelors in Physics & Mathematics from Harvard University and her Masters in Physics at the 
+								University of Cambridge (Trinity College) as a Harvard-Cambridge Scholar.
+							</p>
+						</div>
+					   </p>
+					   <button onclick="readmore()" id="btn">Read more</button>
+		   </div>
+	   </div>
+	
+	   <script>
+		   function  readmore(){
+			   var dots = document.getElementById("dots");
+			   var moretext  = document.getElementById("more");
+			   var btn = document.getElementById("btn"); 
+	
+			   if(dots.style.display ==="none"){
+				   dots.style.display = "inline";
+				   btn.innerHTML = "Read More";
+				   moretext.style.display = "none";
+			   } else {
+				dots.style.display = 'none';
+				btn.innerHTML = "Read Less";
+				moretext.style.display = 'inline';
+			}
+		   }
+	   </script>
+
+	   <!-- Event ends here-->
 	
 	<div class="buttons">
 			<div class = "extLinks">
@@ -100,6 +163,8 @@
 <br>
 <hr>
 <br>
+
+
 
 	<div class="heading">
 		<h1> MEET THE TEAM</h1>

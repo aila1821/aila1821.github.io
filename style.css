@@ -57,7 +57,7 @@ body {
 
 .buttons
 {
-    margin-top: 2em;
+    margin-top: 1em;
     text-align: center; 
     margin-bottom: 2em;
     color: #26252b;
@@ -199,6 +199,61 @@ transition: color 0.4s;
 .container .card .content .sci a:hover
 {
     color: #0196e3
+
+}
+
+.cards{
+    margin: auto;
+    /*margin-top: 2em;
+    margin-left: 4em; */
+    width: 50%;
+    background-color: white ;
+    border-radius: 1em;
+    box-shadow: 9px 9px 40px #bfbfbf;
+}
+
+.row{
+    display: flex;
+}
+
+ .image{
+    width:50%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+ .cards-info{
+    padding: 1.5em;
+    padding-bottom: 1em;
+}
+
+ .cards-info >h1{
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    color:#222222;
+}
+
+ .cards-info >p{
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: #22222299;
+    text-align: justify;
+    line-height: 170%;
+    margin-top: 1em;
+}
+
+ .cards-info button{
+    font-family: Montserrat, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    outline: none;
+    padding: 10px  15px;
+    font-weight: bolder;
+}
+
+#more{
+    display: none;
 }
 
 @media only screen  and (max-width: 1024px){
