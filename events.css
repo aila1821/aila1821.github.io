@@ -7,21 +7,46 @@ body{
   background-color: #f1f1f1 ;  
 }
 
+.header{
+    background-image: url(bg/sci-center-3.jpg);
+}
+
+.top {
+    text-align: center;
+    padding: 80px 100px;
+    margin-bottom: 2em;
+    font-size:30px;
+    font-family: Montserrat,"Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    line-height: 60px;
+    color: #000000;
+}
+
 .container{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 .cards{
-    margin: 4%;
-    width: 50%;
-    height: 40px;
+    margin: 5%;
+    width: 80%;
+   /* height: 40px;*/
     background-color: white ;
     border-radius: 1em;
     box-shadow: 9px 9px 40px #bfbfbf;
 }
 
+.row{
+    display: flex;
+}
+
 .image{
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 200px;
+    height:auto;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
 
@@ -57,12 +82,18 @@ body{
 
 @media only screen and (max-width: 800px) {
  
-    .cards{
-        margin: 1%;
-        width: 60%;
-        background-color: white ;
-        border-radius: 1em;
-        box-shadow: 9px 9px 40px #bfbfbf;
+    .container{
+        display: grid;
+        grid-template-columns: auto auto;
     }
+   
     
+}
+
+@media only screen  and (max-width: 375px){
+    
+.container{
+    display: grid;
+    grid-template-columns: auto;
+}
 }
