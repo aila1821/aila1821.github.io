@@ -80,20 +80,70 @@ body{
     display: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1024px) {
  
     .container{
         display: grid;
         grid-template-columns: auto auto;
     }
+
+
+body{
+    background-color: #f1f1f1 ;  
+    max-width: 100%;
+    overflow-x: hidden;
+  }
    
+    .top {
+        max-width: 100%;
+        overflow-x: hidden;
+        text-align: center;
+        padding: 30px 30px;
+        font-size:20px;
+        font-family: Montserrat,"Helvetica Neue", Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        line-height: 50px;
+        color: #000000;
+    }
     
 }
 
+@media only screen and (max-width: 800px) {
+ 
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+   
+    .top {
+        max-width: 100%;
+        overflow-x: hidden;
+        text-align: center;
+        padding: 40px 40px;
+        font-size:20px;
+        font-family: Montserrat,"Helvetica Neue", Arial, Helvetica, sans-serif;
+        font-weight: 100;
+        line-height: 50px;
+        color: #000000;
+    }
+    
+}
 @media only screen  and (max-width: 375px){
     
 .container{
     display: grid;
     grid-template-columns: auto;
+}
+
+.top {
+    max-width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 40px 40px;
+    font-size:20px;
+    font-family: Montserrat,"Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 50px;
+    color: #000000;
 }
 }
