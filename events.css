@@ -1,5 +1,6 @@
 *{
-    margin: 0;
+    margin: auto;
+    max-width: 960px;
     padding:0;
 }
 
@@ -53,12 +54,19 @@ body{
 }
 
 .cards-info{
-    padding: 1.5em;
+    padding: 1em;
     padding-bottom: 1em;
 }
 
 .cards-info >h1{
-    font-size: 1.5em;
+    font-size: 1.2em;
+    line-height: 120%;
+    margin-bottom: 0.5em;
+    color:#222222;
+}
+
+.cards-info >h3{
+    font-size: 1em;
     color:#222222;
 }
 
@@ -66,8 +74,8 @@ body{
     font-size: 1em;
     color: #22222299;
     text-align: justify;
-    line-height: 170%;
-    margin-top: 1em;
+    line-height: 130%;
+    margin-top: 0.5em;
 }
 
 .cards-info button{

@@ -10,6 +10,8 @@
 }
 
 body {
+    max-width: 960px;
+    margin: auto;
     /*display: flex;*/
     justify-content: center;
     align-items: center;
@@ -127,8 +129,8 @@ body {
 .container .card
 {
     width: 200px; /*330*/
-    height: 400px; /* 416*/
-    padding: 60px 30px;
+    height: 290px; /* 416*/
+    padding: 10px 10px;
     margin: 20px;
     background: #f2f3f7;
     box-shadow: 0.6em 0.6em 1.2em #d2dce9, 
@@ -168,7 +170,7 @@ object-fit: cover;
 .container .card .content .contentBx h4
 {
 color: #36187d;
-font-size: 1.2rem;
+font-size: 1rem;
 font-weight: bold;
 text-align: center;
 letter-spacing: 0;
@@ -177,7 +179,7 @@ letter-spacing: 0;
 .container .card .content .contentBx h5
 {
     color: #6c756c;
-    font-size: 1rem ;
+    font-size: 0.9rem ;
     font-weight: bold;
     text-align: center;
 }
@@ -206,7 +208,7 @@ transition: color 0.4s;
     margin: auto;
     /*margin-top: 2em;
     margin-left: 4em; */
-    width: 30%;
+    width: 50%;
     background-color: white ;
     border-radius: 1em;
     box-shadow: 9px 9px 40px #bfbfbf;
@@ -397,8 +399,8 @@ transition: color 0.4s;
     .container .card
     {
         width: 200px; /*330*/
-        height: 400px; /* 416*/
-        padding: 60px 30px;
+        height: 290px; /* 416*/
+        padding: 10px 10px;
         margin: 20px;
         background: #f2f3f7;
         box-shadow: 0.6em 0.6em 1.2em #d2dce9, 
@@ -438,7 +440,7 @@ transition: color 0.4s;
     .container .card .content .contentBx h4
     {
     color: #36187d;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     text-align: center;
     letter-spacing: 0;
@@ -447,7 +449,7 @@ transition: color 0.4s;
     .container .card .content .contentBx h5
     {
         color: #6c756c;
-        font-size: 1rem ;
+        font-size: 0.9rem ;
         font-weight: bold;
         text-align: center;
     }
@@ -657,8 +659,8 @@ body {
 .container .card
 {
     width: 200px; /*330*/
-    height: 400px; /* 416*/
-    padding: 60px 30px;
+    height: 290px; /* 416*/
+    padding: 10px 10px;
     margin: 20px;
     background: #f2f3f7;
     box-shadow: 0.6em 0.6em 1.2em #d2dce9, 
@@ -698,7 +700,7 @@ object-fit: cover;
 .container .card .content .contentBx h4
 {
 color: #36187d;
-font-size: 1.2rem;
+font-size: 1rem;
 font-weight: bold;
 text-align: center;
 letter-spacing: 0;
@@ -707,7 +709,7 @@ letter-spacing: 0;
 .container .card .content .contentBx h5
 {
     color: #6c756c;
-    font-size: 1rem ;
+    font-size: 0.9rem ;
     font-weight: bold;
     text-align: center;
 }
