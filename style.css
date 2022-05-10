@@ -129,7 +129,7 @@ body {
 .container .card
 {
     width: 200px; /*330*/
-    height: 290px; /* 416*/
+    height: 300px; /* 416*/
     padding: 10px 10px;
     margin: 20px;
     background: #f2f3f7;
@@ -399,7 +399,7 @@ transition: color 0.4s;
     .container .card
     {
         width: 200px; /*330*/
-        height: 290px; /* 416*/
+        height: 300px; /* 416*/
         padding: 10px 10px;
         margin: 20px;
         background: #f2f3f7;
@@ -659,7 +659,7 @@ body {
 .container .card
 {
     width: 200px; /*330*/
-    height: 290px; /* 416*/
+    height: 300px; /* 416*/
     padding: 10px 10px;
     margin: 20px;
     background: #f2f3f7;
