@@ -217,9 +217,23 @@ transition: color 0.4s;
 }
 
  .image{
-    width:50%;
+     /*TO USE FOR TWO IMAGES - PROFILE AND POSTER SIDE BY SIDE
+    /*width:50%;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
+    */
+
+    /*TO US FOR ONE PICTURE ONLY*/
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 200px;
+    height:auto;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+
 }
 
  .event-info{
